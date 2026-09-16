@@ -6,27 +6,27 @@
 class Loom < Formula
   desc "Loom command-line client"
   homepage "https://loom.mbd.xyz"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
       url "https://github.com/ZKAI-Network/loom-cli/releases/download/v#{version}/loom-darwin-arm64"
-      sha256 "e62797c3cd97cf2068ecf8fd8b4b227f90f2901c89b36bad9e99a6c8c093eaff"
+      sha256 "410d70e42c33e98869ac39b0f8e17634e5ece90d484d9dfe241306745e7cb72b"
     end
     on_intel do
       url "https://github.com/ZKAI-Network/loom-cli/releases/download/v#{version}/loom-darwin-x86_64"
-      sha256 "1b3128e591a4a001fbab92622407b96b067c06f8a23830a94d53486a91f738d5"
+      sha256 "05aca7be8125840fa3e81d0f280f9c689f40961234beeb92b5ff7bbd651e4d6f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ZKAI-Network/loom-cli/releases/download/v#{version}/loom-linux-arm64"
-      sha256 "35ce254edf8b4da52e382e0800f9ff681f3a8a5091e5438727ad593407c624bd"
+      sha256 "95439e1d7f17b12c618a5b046d0b35695dd02ba286736009654d4bbc1c1c2e32"
     end
     on_intel do
       url "https://github.com/ZKAI-Network/loom-cli/releases/download/v#{version}/loom-linux-x86_64"
-      sha256 "f0b3dbdef588dede8344203618811d679a0d640d8d6eaa157398e42496803d9e"
+      sha256 "188ebe086e0e8ccae4d8ccdbbf949d9ab21de0085dfb3e529ffce4ba576355c7"
     end
   end
 
